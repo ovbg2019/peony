@@ -1,0 +1,7 @@
+body {
+  background: #000;
+}
+
+picture, img {
+  max-width: 100%;
+}
