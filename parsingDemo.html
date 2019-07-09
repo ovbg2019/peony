@@ -1,0 +1,14 @@
+<html>
+
+<body>
+	<script>
+		//let url = 'https://www.example.com?name=hello';
+		//let params = (new URL(url)).searchParams;
+    let params = new URLSearchParams(location.search);
+		let parsed = params.get('name');
+		document.write(parsed);
+
+	</script>
+</body>
+
+</html>
